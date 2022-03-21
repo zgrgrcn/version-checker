@@ -184,10 +184,22 @@ app.get("/", async function (req, res) {
                     url,
                   },
                 ];
-            } else
-              totalResult.push({
-                error: `actuator is not implemented for ${serviceName}`,
-              });
+            } else {
+              if (totalResult.hasOwnProperty(serviceName)) {
+                totalResult[serviceName].push({
+                  env,
+                  error: `actuator is not implemented`,
+                  url,
+                });
+              } else
+                totalResult[serviceName] = [
+                  {
+                    env,
+                    error: `actuator is not implemented`,
+                    url,
+                  },
+                ];
+            }
           }
         }
       })
