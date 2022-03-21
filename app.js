@@ -3,6 +3,7 @@ const app = express();
 const axios = require("axios");
 
 const devList = [
+  "https://si-bpmn-api.dev.energia.gitops.vodafone.com/api/si-bpmn/actuator/info",
   "https://dacm-api.dev.energia.gitops.vodafone.com/api/accountManagement/v4/actuator/info",
   "https://dagm-api.dev.energia.gitops.vodafone.com/api/agreementManagement/v4/actuator/info",
   "https://dpm-api.dev.energia.gitops.vodafone.com/api/partnershipManagement/v4/actuator/info",
@@ -24,6 +25,7 @@ const devList = [
   "https://shoppingcartcheckout-api.dev.energia.gitops.vodafone.com/api/shoppingcart-checkout/actuator/info",
 ];
 const pprdList = [
+  "https://si-bpmn-api.pprd.pre-prod-energia.vodafone.es/api/si-bpmn/actuator/info",
   "https://dacm-api.pprd.pre-prod-energia.vodafone.es/api/accountManagement/v4/actuator/info",
   "https://dagm-api.pprd.pre-prod-energia.vodafone.es/api/agreementManagement/v4/actuator/info",
   "https://dpm-api.pprd.pre-prod-energia.vodafone.es/api/partnershipManagement/v4/actuator/info",
@@ -45,6 +47,7 @@ const pprdList = [
   "https://shoppingcart-checkout-api.pprd.pre-prod-energia.vodafone.es/api/shoppingcart-checkout/actuator/info",
 ];
 const sit1List = [
+  "https://si-bpmn-api.sit1.energia.gitops.vodafone.com/api/si-bpmn/actuator/info",
   "https://dacm-api.sit1.energia.gitops.vodafone.com/api/accountManagement/v4/actuator/info",
   "https://dagm-api.sit1.energia.gitops.vodafone.com/api/agreementManagement/v4/actuator/info",
   "https://dpm-api.sit1.energia.gitops.vodafone.com/api/partnershipManagement/v4/actuator/info",
@@ -66,6 +69,7 @@ const sit1List = [
   "https://shoppingcart-checkout-api.sit1.energia.gitops.vodafone.com/api/shoppingcart-checkout/actuator/info",
 ];
 const sit2List = [
+  "https://si-bpmn-api.sit2.energia.gitops.vodafone.com/api/si-bpmn/actuator/info",
   "https://dacm-api.sit2.energia.gitops.vodafone.com/api/accountManagement/v4/actuator/info",
   "https://dagm-api.sit2.energia.gitops.vodafone.com/api/agreementManagement/v4/actuator/info",
   "https://dpm-api.sit2.energia.gitops.vodafone.com/api/partnershipManagement/v4/actuator/info",
@@ -87,6 +91,7 @@ const sit2List = [
   "https://shoppingcart-checkout-api.sit2.energia.gitops.vodafone.com/api/shoppingcart-checkout/actuator/info",
 ];
 const prodList = [
+  "https://si-bpmn-api.energia.vodafone.es/api/si-bpmn/actuator/info",
   "https://dacm-api.energia.vodafone.es/api/accountManagement/v4/actuator/info",
   "https://dagm-api.energia.vodafone.es/api/agreementManagement/v4/actuator/info",
   "https://dpm-api.energia.vodafone.es/api/partnershipManagement/v4/actuator/info",
