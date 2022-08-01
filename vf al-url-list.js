@@ -24,26 +24,7 @@ const pprdList = [
   "https://shoppingcart-checkout-api.pprd.pre-prod-energia.vodafone.es/api/shoppingcart-checkout/actuator/info",
 ];
 const sit1List = [
-  "https://si-bpmn-api.sit1.energia.gitops.vodafone.com/api/si-bpmn/actuator/info",
-  "https://dacm-api.sit1.energia.gitops.vodafone.com/api/accountManagement/v4/actuator/info",
-  "https://dagm-api.sit1.energia.gitops.vodafone.com/api/agreementManagement/v4/actuator/info",
-  "https://dpm-api.sit1.energia.gitops.vodafone.com/api/partnershipManagement/v4/actuator/info",
-  "https://dcm-api.sit1.energia.gitops.vodafone.com/api/customerManagement/v4/actuator/info",
-  "https://dpr-api.sit1.energia.gitops.vodafone.com/api/partyRoleManagement/v4/actuator/info",
-  "https://dpam-api.sit1.energia.gitops.vodafone.com/api/partyManagement/v4/actuator/info",
-  "https://dsales-api.sit1.energia.gitops.vodafone.com/api/shoppingCart/v4/actuator/info",
-  "https://dgeo-api.sit1.energia.gitops.vodafone.com/api/geographicAddressManagement/v4/actuator/info",
-  "https://ddms-api.sit1.energia.gitops.vodafone.com/api/documentManagement/v4/actuator/info",
-  "https://dpim-api.sit1.energia.gitops.vodafone.com/api/productInventoryManagement/v4/actuator/info",
-  "https://reference-management-api.sit1.energia.gitops.vodafone.com/api/referenceManagement/v4/actuator/info",
-  "https://s3-api.sit1.energia.gitops.vodafone.com/api/storageService/v4/actuator/info",
-  "https://provision-api.sit1.energia.gitops.vodafone.com/api/provision/actuator/info",
-  "https://si-authorization-api.sit1.energia.gitops.vodafone.com/api/si-authorization/actuator/info",
-  "https://ui-backend-api.sit1.energia.gitops.vodafone.com/api/ui-backend/actuator/info",
-  "https://si-user-token-api.sit1.energia.gitops.vodafone.com/api/si-user-token/actuator/info",
-  "https://payment-methods-api.sit1.energia.gitops.vodafone.com/api/paymentMethods/v1/actuator/info",
-  "https://biztalk-tmf-api.sit1.energia.gitops.vodafone.com/api/biztalk-tmf-api/actuator/info",
-  "https://shoppingcart-checkout-api.sit1.energia.gitops.vodafone.com/api/shoppingcart-checkout/actuator/info",
+  "https://abel-gate-api.sit1.dnext.al.vodafone.com/api/ServiceActivationAndConfiguration/abel/v4/actuator/info",
 ];
 const sit2List = [
   "https://si-bpmn-api.sit2.energia.gitops.vodafone.com/api/si-bpmn/actuator/info",

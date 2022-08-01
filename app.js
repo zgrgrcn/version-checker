@@ -10,19 +10,11 @@ const {
   prodList,
 } = require("./vf al-url-list.js");
 
-const urlList = devList;
+const urlList = sit1List;
 //.concat(pprdList, sit1List, sit2List, prodList);
 console.log("urlList", urlList.length);
 
-const promises = urlList.map((l) =>
-  axios.get(l, {
-    proxy: {
-      host: "195.33.213.146",
-      port: 8443,
-      auth: { username: "ozgur.gurcan", password: "1&u-O8=ag6re" },
-    },
-  })
-);
+const promises = urlList.map((l) => axios.get(l));
 const promisesResolved = promises.map((promise) =>
   promise.catch((error) => ({ error }))
 );
